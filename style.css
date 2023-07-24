@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&display=swap');
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #F5F5F5;
+  color: #F5F5F5;
+  text-align: center;
+  padding: 30px;
+}
+
+body::-webkit-scrollbar {
+  width: 0.50rem;
+}
+body::-webkit-scrollbar-track{
+  background: #3C3C3C;
+}
+body::-webkit-scrollbar-thumb{
+  background: #E20A48;
+}
+
+#header-title{
+  text-align:center;
+  font-size: 35px;
+  font-family: 'Lato', sans-serif;
+  color: #F5F5F5;
+}
+
+.header-subtitle{
+  font-family: 'Lato', sans-serif;
+  text-align:center;
+  font-size: 25px;
+  color: #E20A48;
+}
+
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  color: #E20A48;
+}
+
+ul {
+  padding: 15px;
+  text-align: justify;
+}
+
+ol {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.card {
+  background-color: #231F20;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #3C3C3C;
+}
+
+.button {
+  text-decoration:none;
+  color: #F5F5F5;
+  font-weight: bold;
+  transition: 0.3s ease;
+  line-height: 1.5;
+  border-radius: 2px;
+}
+
+.button:hover{
+  background-color: #F5F5F5;
+  color: #E20A48;
+  box-shadow: 0 0 5px #F5F5F5;
+  transition: 0.5s;
+  padding: 2.5px;
+}
+
+#profile-pic {
+  max-width: 45%;
+  border-radius: 50%;
+  position: center;
+  inline-size: auto;
+  box-shadow: 0 0 10px #E20A48;
+}
+
+.iconos {
+  width: 60px;
+  fill: #F5F5F5;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  margin: 20px
+}
+
+.iconos:hover {
+  fill: #E20A48;
+  transition: 0.5s ease;
+}
